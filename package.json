@@ -1,15 +1,12 @@
 {
-  "name": "hosted-hubot",
-  "version": "2.7.1",
+  "name": "takkanm",
+  "version": "31.0.0",
   "private": true,
-  "author": "GitHub Inc.",
+  "author": "",
   "keywords": [
-    "github",
-    "hubot",
-    "campfire",
     "bot"
   ],
-  "description": "A simple helpful robot for your Company",
+  "description": "We love a @takkanm",
   "licenses": [
     {
       "type": "MIT",
@@ -18,12 +15,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/github/hubot.git"
+    "url": "https://github.com/hrysd/bot.git"
   },
   "dependencies": {
     "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot-heroku-keepalive": "0.0.4",
     "hubot-idobata": "^0.1.0",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0"
+    "hubot-kenchankunsan": "1syo/hubot-kenchankunsan",
+    "hubot-scripts": ">= 2.5.0 < 3.0.0",
+    "lodash": "^3.10.0",
+    "request": "^2.60.0"
   },
   "engines": {
     "node": ">= 0.8.x",

@@ -14,10 +14,8 @@
 helpContents = (name, commands) ->
 
   """
-<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8">
   <title>#{name} Help</title>
   <style type="text/css">
     body {
@@ -66,8 +64,8 @@ module.exports = (robot) ->
 
     prefix = robot.alias or robot.name
     cmds = cmds.map (cmd) ->
-      cmd = cmd.replace /hubot/ig, robot.name
-      cmd.replace new RegExp("^#{robot.name}"), prefix
+      cmd = cmd.replace /^hubot/, prefix
+      cmd.replace /hubot/ig, robot.name
 
     emit = cmds.join "\n"
 
