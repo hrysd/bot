@@ -18,7 +18,7 @@ module.exports = (robot) ->
 
   formatMessage = (message) ->
     compiled = _.template("""
-      <p><%= text %> (<a href='<%= source %>'>source</a>)</p>
+      <%= text %> ([source](<%= source %>))
     """)
 
     compiled(message)
