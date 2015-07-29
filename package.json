@@ -20,7 +20,7 @@
   "dependencies": {
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-heroku-keepalive": "0.0.4",
-    "hubot-idobata": "^0.1.0",
+    "hubot-idobata": "hrysd/hubot-idobata#markdown",
     "hubot-kenchankunsan": "1syo/hubot-kenchankunsan",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "lodash": "^3.10.0",
