@@ -110,10 +110,10 @@ module.exports = (robot) ->
 
   robot.hear /\.jpg|\.png|\.gif/, (msg) ->
     images = [
-      {'即保存しましたΣ（ﾟдﾟlll）',                          source: 'https://twitter.com/takkanm/status/429943162249830400'}
-      {'即保存しました！',                                   source: 'https://twitter.com/takkanm/status/426685871220203521'}
-      {'即保存しました !!!!',                                source: 'https://twitter.com/takkanm/status/414424003982274560'}
-      {'ありがとうございます。即保存しました。 #違う人の芸', source: 'https://twitter.com/takkanm/status/405904153731272704'}
+      {text: '即保存しましたΣ（ﾟдﾟlll）',                          source: 'https://twitter.com/takkanm/status/429943162249830400'}
+      {text: '即保存しました！',                                   source: 'https://twitter.com/takkanm/status/426685871220203521'}
+      {text: '即保存しました !!!!',                                source: 'https://twitter.com/takkanm/status/414424003982274560'}
+      {text: 'ありがとうございます。即保存しました。 #違う人の芸', source: 'https://twitter.com/takkanm/status/405904153731272704'}
     ]
 
     msg.reply chooseMessageAtRandom(images)
